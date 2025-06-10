@@ -7,7 +7,7 @@ public class BankAccountApp {
 
 	public static void main(String[] args) {
 		List<Account> accounts=new LinkedList<Account>();
-		String file= "C:\\Users\\balaj\\Downloads\\assetsBankAcc\\New_Bank_Accounts.csv";
+		String file= "assets\\New_Bank_Accounts.csv";
 
 		//Read CSV file then create new accs based on it
 		List<String[]> newAccHolders=utilities.CSV.read(file);
